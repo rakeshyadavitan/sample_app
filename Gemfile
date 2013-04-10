@@ -8,6 +8,10 @@ gem 'rails', '3.2.1'
 group :development,:test do
 	gem 'sqlite3','1.3.5'
 	gem 'rspec-rails','2.11.0'
+	gem 'guard-rspec','1.2.1'
+	gem 'spork','0.9.2'
+	gem 'guard-spork','0.1.5'
+	gem 'wdm', '~> 0.1'
 end
 
 # Gems used only for assets and not required
@@ -26,6 +30,10 @@ gem 'jquery-rails'
 
 group :test do
 	gem 'capybara','1.1.2'
+	#system dependent gem
+	gem 'rb-fchange','0.0.5'
+	gem 'rb-notifu','0.0.4'
+	gem 'win32console','1.3.0'
 end
 
 group :production do
