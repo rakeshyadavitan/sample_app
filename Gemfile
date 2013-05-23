@@ -1,7 +1,9 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.1'
-
+gem 'prawn', '~> 0.12.0'
+gem 'pdf-reader', '~> 0.10.0'
+gem 'Ascii85', '~> 1.0.1'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
